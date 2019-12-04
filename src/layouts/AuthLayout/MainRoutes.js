@@ -39,7 +39,7 @@ const RouteItem = (props) => {
 const flatRoutes = (routesSource, authTree) => {
   let filterRoutes = []
   routesSource.forEach((route) => {
-    const { redirect, path, code, component, children, exact, ignoreAuth, iframeConfig, name } = route
+    const { redirect, path, component, children, exact, ignoreAuth, iframeConfig, name } = route
     if (ignoreAuth) {
       filterRoutes.push({
         key: path,

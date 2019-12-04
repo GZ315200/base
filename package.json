@@ -1,7 +1,7 @@
 {
-  "name": "davinc-migration",
-  "version": "1.0.0",
-  "description": "DV Cover",
+  "name": "yellow_chicken",
+  "version": "0.9.0",
+  "description": "a base project of scaffold.",
   "dependencies": {
     "@alifd/next": "1.x",
     "@icedesign/balloon-confirm": "1.x",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
-    "babel-eslint": "8.0.1",
+    "babel-eslint": "10.0.3",
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
     "eslint": ">=4.18.2",

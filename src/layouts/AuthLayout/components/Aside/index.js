@@ -13,9 +13,10 @@ const SubNav = Nav.SubNav
 const NavItem = Nav.Item
 
 
+// eslint-disable-next-line no-unused-vars
 const hasChildren = (children, authTree) => {
   if (!Array.isArray(children) || children.length === 0) return false
-  return children.some(({ hideInMenu, code, ignoreAuth }) => {
+  return children.some(({ hideInMenu, ignoreAuth }) => {
     return !hideInMenu && (ignoreAuth)
   })
 }
@@ -52,7 +53,6 @@ const loopNav = (menus, authTree, currentPath, isNeedAddIcon = true) => {
       path,
       redirect,
       icon,
-      code,
       children,
       hideInMenu,
       ignoreAuth,
@@ -166,7 +166,7 @@ export default withRouter(
             src={asideIconOnly ? logo : logoText}
             alt="dv-logo"
           />
-          {asideIconOnly ? null : <h1 className="project-name">DV Cover</h1>}
+          {asideIconOnly ? null : <h1 className="project-name">Yellow Chicken</h1>}
         </Link>
         <Nav
           className={`dvcover-nav ${asideIconOnly ? 'aside-icon-only' : ''}`}
