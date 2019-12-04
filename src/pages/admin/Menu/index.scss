@@ -1,0 +1,59 @@
+.menu-container {
+    height: 100%;
+    width: 100%;
+    position: inherit;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+
+    .filter-container {
+        margin: 10px 0px 0px 10px;
+        padding-bottom: 10px;
+        display: block;
+
+        .filter-item-input {
+            display: inline-block;
+        }
+        .filter-item-search {
+            margin-left: 10px;
+            display: inline-block;
+        }
+        .filter-item-add {
+            margin-left: 20px;
+            display: inline-block;
+        }
+        .filter-item-tag {
+            margin-left: 3px;
+            display: inline-block;
+        }
+        .filter-item-switch {
+            left: 2px;
+            top: 8px;
+        }
+    }
+
+    .table-container {
+        height: 100%;
+        width: 100%;
+        margin: 10px 0px;
+        padding-bottom: 10px;
+        display: block;
+        .table-item {
+            padding: 0px 10px 0px 10px;
+        }
+    }
+}
+
+
+.operate-container {
+    text-align: center;
+    display: inline-block; 
+    .operate-left-btn {
+        display: inline-block;
+        right: 8px;
+    }
+    .operate-right-btn {
+        display: inline-block;
+        left: 8px;
+    }
+}
