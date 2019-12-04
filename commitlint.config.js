@@ -20,5 +20,7 @@ module.exports = {
       ],
     ],
     'subject-case': [0, 'never', ['lower-case']],
+    'subject-empty': [0, 'never'],
+    'type-empty': [0, 'never'],
   },
 }
