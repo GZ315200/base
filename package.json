@@ -45,7 +45,7 @@
     "ice-plugin-moment-locales": "^0.1.0",
     "ice-scripts": "^2.1.6",
     "iconv-lite": "^0.4.24",
-    "lint-staged": "8.1.4",
+    "lint-staged": "13.2.2",
     "xlsx2json": "^1.0.0"
   },
   "scripts": {
